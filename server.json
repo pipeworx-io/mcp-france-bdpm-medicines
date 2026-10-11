@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.pipeworx-io/france-bdpm-medicines",
+  "title": "France Bdpm Medicines",
+  "description": "france-bdpm-medicines — France's official public medicines database (BDPM:",
+  "version": "0.1.0",
+  "websiteUrl": "https://pipeworx.io/packs/france-bdpm-medicines",
+  "repository": {
+    "url": "https://github.com/pipeworx-io/mcp-france-bdpm-medicines",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://gateway.pipeworx.io/france-bdpm-medicines/mcp"
+    }
+  ]
+}
