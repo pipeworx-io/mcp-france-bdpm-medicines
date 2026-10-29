@@ -1,12 +1,20 @@
 {
   "name": "@pipeworx/mcp-france-bdpm-medicines",
-  "version": "0.1.0",
-  "description": "france-bdpm-medicines — France's official public medicines database (BDPM:",
+  "version": "0.2.0",
+  "description": "france-bdpm-medicines — France's official public medicines database (BDPM: 'Base de Donnees Publique des Medicaments'), published by ANSM/CNAM: every authorized medicine with its presentations, reimbursement rates, prices, composition, HAS opinions and generic groups. Fleet #2933.",
   "type": "module",
-  "main": "src/index.ts",
-  "types": "src/index.ts",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./tools.json": "./tools.json",
+    "./package.json": "./package.json"
+  },
   "bin": {
     "mcp-france-bdpm-medicines": "bin/cli.js"
+  },
+  "files": ["bin/", "lib/", "tools.json", "server.json"],
+  "engines": {
+    "node": ">=18"
   },
   "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "france-bdpm-medicines"],
   "license": "MIT",
@@ -14,19 +22,12 @@
     "type": "git",
     "url": "git+https://github.com/pipeworx-io/mcp-france-bdpm-medicines.git"
   },
-  "scripts": {
-    "typecheck": "tsc --noEmit"
-  },
-  "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.30.0",
-    "tsx": "^4.19.0"
-  },
-  "devDependencies": {
-    "typescript": "^5.9.3",
-    "@cloudflare/workers-types": "^4.20260405.1"
-  },
+  "mcpName": "io.github.pipeworx-io/france-bdpm-medicines",
   "pipeworx": {
-    "sourceHash": "v1-de1a3a44686129dfe57a65075d6708e194d3c0d7e97a2eb17d114c864b1a7fbb",
-    "sourceCommit": "32aab95bb6e89ecc0f84597573d405a8a22cb609"
+    "mode": "gateway",
+    "slug": "france-bdpm-medicines",
+    "gatewaySlug": "france-bdpm-medicines",
+    "sourceHash": "v1-7bc14cdc0ab9965067473e37b3b6e8b9f372392379e3c7783a47cad5ec1b6d16",
+    "sourceCommit": "bb047243cf27f32453103de186b8e6a8b6a1ce79"
   }
 }
