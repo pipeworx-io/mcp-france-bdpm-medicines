@@ -6,7 +6,7 @@ its CIP13 pack presentations with reimbursement rate and price, active-substance
 composition, HAS SMR/ASMR opinions (service medical rendu / amelioration du
 service medical rendu) and generic-group membership. Fleet #2933.
 
-Part of [Pipeworx](https://pipeworx.io) — an MCP gateway connecting AI agents to 1856+ live data sources. This is an independent, unofficial integration — not affiliated with, endorsed by, or published by the upstream provider.
+Part of [Pipeworx](https://pipeworx.io) — an MCP gateway connecting AI agents to 1865+ live data sources. This is an independent, unofficial integration — not affiliated with, endorsed by, or published by the upstream provider.
 
 The BDPM is published as bulk tables rather than an API, so Pipeworx keeps a
 weekly-refreshed copy of the official tables. This is the French *national* list with reimbursement data, distinct
@@ -121,7 +121,7 @@ directly, instead of just this one's:
 }
 ```
 
-Both URLs reach the same gateway and the same 1856+ data sources. The
+Both URLs reach the same gateway and the same 1865+ data sources. The
 only difference is which pack's tools are listed **directly**; `ask_pipeworx`
 reaches all of them from either one.
 

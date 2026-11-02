@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-france-bdpm-medicines",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "france-bdpm-medicines — France's official public medicines database (BDPM: 'Base de Donnees Publique des Medicaments'), published by ANSM/CNAM: every authorized medicine with its presentations, reimbursement rates, prices, composition, HAS opinions and generic groups. Fleet #2933.",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "france-bdpm-medicines",
     "gatewaySlug": "france-bdpm-medicines",
-    "sourceHash": "v1-7bc14cdc0ab9965067473e37b3b6e8b9f372392379e3c7783a47cad5ec1b6d16",
-    "sourceCommit": "bb047243cf27f32453103de186b8e6a8b6a1ce79"
+    "sourceHash": "v1-69bbf4f33ae0a0dddc590a420916ec2ad3651ade878bb668ee91c5e37710150a",
+    "sourceCommit": "030233f6b150a38a44421f88a5fcbad123f0fea8"
   }
 }
